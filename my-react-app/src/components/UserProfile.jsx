@@ -37,7 +37,6 @@ export default function UserProfile() {
       <button
         onClick={getUser}
         disabled={loading}
-        
       >
         {loading ? '로딩...' : '새로고침'}
       </button>
